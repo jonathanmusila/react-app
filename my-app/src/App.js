@@ -24,5 +24,4 @@ function App() {
     </Provider>
   );
 }
-// 37324987
 export default App;
