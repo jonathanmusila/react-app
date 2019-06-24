@@ -11,6 +11,11 @@ export default function (state = initialState, action) {
             console.log('reducer')
             return {
                 ...state,
+                items: action.payload
+            }
+        case NEW_POST:
+            return {
+                ...state,
                 item: action.payload
             }
         default:
